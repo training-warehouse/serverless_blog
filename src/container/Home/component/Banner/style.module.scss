@@ -1,0 +1,43 @@
+.banner {
+  width: 1280px;
+  height: 530px;
+  margin: 0 auto;
+  background-image: url('/images/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+
+  .person {
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+
+    .avatar {
+      position: absolute;
+      top: -70px;
+      left: 40px;
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+    }
+
+    .title {
+      margin-left: 280px;
+      line-height: 50px;
+      font-size: 28px;
+      color: #000;
+      margin-top: 10px;
+    }
+
+    .description {
+      margin-right: 30px;
+      margin-left: 280px;
+      line-height: 36px;
+      font-size: 18px;
+      color: #333;
+    }
+  }
+}
